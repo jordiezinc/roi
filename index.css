@@ -1,0 +1,2049 @@
+BODY {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #ffff;
+    outline: #000;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #f04da9;
+    cursor: pointer;
+    color: #f04da9;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffff;
+    cursor: pointer;
+  }
+  
+  #num-hires-output {
+    font-size: 2.5em;
+    color: #f04da9;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+  
+  .FORM-0 {
+    box-sizing: border-box;
+    align-items: stretch;
+    align-self: auto;
+    gap: 32px;
+    display: grid;
+    flex: 1 1 auto;
+    flex-direction: column;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 528px 528px;
+    grid-template-rows: auto auto; /* Changed from fixed height */
+    order: 0;
+    max-width: none;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgb(253, 248, 244);
+  }
+  
+  .DIV-0 {
+    box-sizing: border-box;
+    gap: 32px;
+    display: flex;
+    flex-flow: column;
+    grid-area: auto;
+  }
+  .DIV-1 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: rgb(246, 250, 247);
+    border-radius: 16px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 32px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 12px 16px -4px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .DIV-2 {
+    box-sizing: border-box;
+  }
+  .H2-0 {
+    box-sizing: border-box;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-top: 20px;
+  }
+  .DIV-3 {
+    box-sizing: border-box;
+    place-content: flex-start;
+    align-items: flex-start;
+    align-self: auto;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex-flow: column wrap;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 16px 16px 0px;
+    position: relative;
+    text-align: left;
+    flex: 0 1 auto;
+    left: 0px;
+    right: 0px;
+    white-space: normal;
+  }
+  .DIV-4 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  .DIV-5 {
+    box-sizing: border-box;
+    place-content: flex-start;
+    align-items: flex-start;
+    align-self: auto;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex-flow: column wrap;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 16px 16px 0px;
+    position: relative;
+    text-align: left;
+    flex: 0 1 auto;
+    left: 0px;
+    right: 0px;
+    white-space: normal;
+  }
+  .SELECT-0 {
+    color: rgb(51, 51, 51);
+    font: 500 13.2px Maisonneueweb, sans-serif;
+    text-decoration: none solid rgb(51, 51, 51);
+    margin: 0px 0px 10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 38px;
+    padding: 8px 12px;
+    vertical-align: middle;
+    width: 231px;
+    border-radius: 4px;
+    max-width: 50%;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .OPTION-0 {
+    box-sizing: border-box;
+  }
+  .OPTION-1 {
+    box-sizing: border-box;
+  }
+  .OPTION-2 {
+    box-sizing: border-box;
+  }
+  .OPTION-3 {
+    box-sizing: border-box;
+  }
+  .OPTION-4 {
+    box-sizing: border-box;
+  }
+  .OPTION-5 {
+    box-sizing: border-box;
+  }
+  .DIV-6 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 32px;
+    display: flex;
+    flex-flow: column;
+    width: 462px;
+  }
+  .DIV-7 {
+    box-sizing: border-box;
+    place-content: flex-start;
+    align-items: flex-start;
+    align-self: auto;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex-flow: column wrap;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 16px 16px 0px;
+    position: relative;
+    text-align: left;
+    flex: 0 1 auto;
+    left: 0px;
+    right: 0px;
+    white-space: normal;
+  }
+  .DIV-8 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(240, 77, 169);
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: space-between;
+    min-width: 9%;
+    width: 462px;
+  }
+  .DIV-9 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    box-sizing: border-box;
+  }
+  .INPUT-0 {
+    appearance: none;
+    background: none 0% 0% / auto repeat scroll padding-box border-box
+      rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 15px;
+    outline: rgb(0, 0, 0) none 0px;
+    transition: opacity 0.2s;
+    width: 462px;
+    color: rgb(240, 77, 169);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .P-0 {
+    color: rgb(240, 77, 169);
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 50px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .STYLE-0 {
+  }
+  .DIV-10 {
+    box-sizing: border-box;
+    align-self: stretch;
+    background-color: rgb(246, 250, 247);
+    border-radius: 16px;
+    gap: 16px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-flow: column;
+    padding: 32px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 12px 16px -4px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .H2-1 {
+    box-sizing: border-box;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-top: 20px;
+  }
+  .DIV-11 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Maisonneueweb, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .DIV-12 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+  .DIV-13 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    align-items: normal;
+  }
+  .LABEL-0 {
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .INPUT-1 {
+    color: rgb(51, 51, 51);
+    font: 500 16px / 22.8571px Maisonneueweb, sans-serif;
+    text-decoration: none solid rgb(51, 51, 51);
+    margin: 0px 0px 10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 38px;
+    padding: 8px 12px;
+    vertical-align: middle;
+    width: 221px;
+    align-self: center;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .DIV-14 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    align-items: normal;
+  }
+  .LABEL-1 {
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .SELECT-1 {
+    color: rgb(51, 51, 51);
+    font: 500 13.2px Maisonneueweb, sans-serif;
+    text-decoration: none solid rgb(51, 51, 51);
+    margin: 0px 0px 10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 38px;
+    padding: 8px 12px;
+    vertical-align: middle;
+    width: 221px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .OPTION-6 {
+    box-sizing: border-box;
+  }
+  .OPTION-7 {
+    box-sizing: border-box;
+  }
+  .OPTION-8 {
+    box-sizing: border-box;
+  }
+  .OPTION-9 {
+    box-sizing: border-box;
+  }
+  .OPTION-10 {
+    box-sizing: border-box;
+  }
+  .OPTION-11 {
+    box-sizing: border-box;
+  }
+  .OPTION-12 {
+    box-sizing: border-box;
+  }
+  .OPTION-13 {
+    box-sizing: border-box;
+  }
+  .OPTION-14 {
+    box-sizing: border-box;
+  }
+  .DIV-15 {
+    box-sizing: border-box;
+    align-self: stretch;
+    background-color: rgb(246, 250, 247);
+    border-radius: 16px;
+    flex: 1 1 0%;
+    padding: 32px;
+    width: 528px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 12px 16px -4px;
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .H2-2 {
+    box-sizing: border-box;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-top: 20px;
+  }
+  .DIV-16 {
+    box-sizing: border-box;
+    place-content: flex-start;
+    align-items: flex-start;
+    align-self: auto;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex-flow: column wrap;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 16px 16px 0px;
+    position: relative;
+    text-align: left;
+    flex: 0 1 auto;
+    left: 0px;
+    right: 0px;
+    white-space: normal;
+  }
+  .DIV-17 {
+    box-sizing: border-box;
+    align-items: stretch;
+    gap: 3% 20px;
+    display: block;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    width: 462px;
+  }
+  .DIV-18 {
+    box-sizing: border-box;
+    place-content: space-around start;
+    place-items: baseline start;
+    align-self: center;
+    gap: 16px;
+    display: grid;
+    flex: 1 1 0%;
+    flex-direction: column;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 223px 223px;
+    grid-template-rows: 84px 84px 84px 84px 84px 84px 84px 84px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 462px;
+  }
+  .DIV-19 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-20 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-21 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-22 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-0 {
+    height: 48px;
+    width: 39.0469px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-2 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-23 {
+    position: relative;
+    width: 147.953px;
+    box-sizing: border-box;
+  }
+  .LABEL-2 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-24 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-25 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-3 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-0 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-26 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-27 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-28 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-29 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-1 {
+    height: 48px;
+    width: 38.3906px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-4 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-30 {
+    position: relative;
+    width: 148.609px;
+    box-sizing: border-box;
+  }
+  .LABEL-3 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-31 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-32 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-5 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-1 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-33 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-34 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-35 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-36 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-2 {
+    height: 48px;
+    width: 39px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-6 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-37 {
+    position: relative;
+    width: 148px;
+    box-sizing: border-box;
+  }
+  .LABEL-4 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-38 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-39 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-7 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-2 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-40 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-41 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-42 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-43 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-3 {
+    height: 48px;
+    width: 39.8281px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-8 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-44 {
+    position: relative;
+    width: 147.172px;
+    box-sizing: border-box;
+  }
+  .LABEL-5 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-45 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-46 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-9 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-3 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-47 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-48 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-49 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-50 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-4 {
+    height: 48px;
+    width: 39.8281px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-10 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-51 {
+    position: relative;
+    width: 147.172px;
+    box-sizing: border-box;
+  }
+  .LABEL-6 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-52 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-53 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-11 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-4 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-54 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-55 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-56 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-57 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-5 {
+    height: 48px;
+    width: 40.8438px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-12 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-58 {
+    position: relative;
+    width: 146.156px;
+    box-sizing: border-box;
+  }
+  .LABEL-7 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-59 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-60 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-13 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-5 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-61 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-62 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-63 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-64 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-6 {
+    height: 48px;
+    width: 39px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-14 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-65 {
+    position: relative;
+    width: 148px;
+    box-sizing: border-box;
+  }
+  .LABEL-8 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-66 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-67 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-15 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-6 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-68 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-69 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-70 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-71 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-7 {
+    height: 48px;
+    width: 40.8438px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-16 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-72 {
+    position: relative;
+    width: 146.156px;
+    box-sizing: border-box;
+  }
+  .LABEL-9 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-73 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-74 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-17 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-7 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-75 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-76 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-77 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-78 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-8 {
+    height: 48px;
+    width: 40px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-18 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-79 {
+    position: relative;
+    width: 147px;
+    box-sizing: border-box;
+  }
+  .LABEL-10 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-80 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-81 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-19 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-8 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-82 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-83 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-84 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-85 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-9 {
+    height: 48px;
+    width: 39px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-20 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-86 {
+    position: relative;
+    width: 148px;
+    box-sizing: border-box;
+  }
+  .LABEL-11 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-87 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-88 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-21 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-9 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-89 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-90 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-91 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-92 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-10 {
+    height: 48px;
+    width: 40.8438px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-22 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-93 {
+    position: relative;
+    width: 146.156px;
+    box-sizing: border-box;
+  }
+  .LABEL-12 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-94 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-95 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-23 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-10 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-96 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-97 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-98 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-99 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-11 {
+    height: 48px;
+    width: 39.8281px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-24 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-100 {
+    position: relative;
+    width: 147.172px;
+    box-sizing: border-box;
+  }
+  .LABEL-13 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-101 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-102 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-25 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-11 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-103 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-104 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-105 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-106 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-12 {
+    height: 48px;
+    width: 40px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-26 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-107 {
+    position: relative;
+    width: 147px;
+    box-sizing: border-box;
+  }
+  .LABEL-14 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-108 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-109 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-27 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-12 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-110 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-111 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-112 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-113 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-13 {
+    height: 48px;
+    width: 40px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-28 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-114 {
+    position: relative;
+    width: 147px;
+    box-sizing: border-box;
+  }
+  .LABEL-15 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-115 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-116 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-29 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-13 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .DIV-117 {
+    box-sizing: border-box;
+    align-items: flex-start;
+    align-self: center;
+    column-gap: 10px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 0%;
+    width: 223px;
+  }
+  .DIV-118 {
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex: 0 1 auto;
+    flex-flow: row;
+    font-family: Maisonneueweb, sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 223px;
+    align-self: auto;
+  }
+  .DIV-119 {
+    border-radius: 8px;
+    padding: 16px 16px 16px 8px;
+    width: 223px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .DIV-120 {
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 195px;
+    box-sizing: border-box;
+  }
+  .IMG-14 {
+    height: 48px;
+    width: 39.8281px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .INPUT-30 {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    accent-color: rgb(240, 77, 169);
+    color: rgb(0, 0, 0);
+    font: 500 16px Maisonneueweb, sans-serif;
+    box-sizing: border-box;
+  }
+  .DIV-121 {
+    position: relative;
+    width: 147.172px;
+    box-sizing: border-box;
+  }
+  .LABEL-16 {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .DIV-122 {
+    bottom: -17px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+  }
+  .DIV-123 {
+    position: relative;
+    box-sizing: border-box;
+  }
+  .INPUT-31 {
+    color: rgb(240, 77, 169);
+    font: 16px Maisonneueweb, sans-serif;
+    padding-left: 25px;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .I-14 {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: none;
+    width: 25px;
+    box-sizing: border-box;
+  }
+  .A-0 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none solid rgb(255, 255, 255);
+    background-color: rgb(240, 77, 169);
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 24px;
+    padding: 9px 15px;
+    position: static;
+    align-self: center;
+  }
+  .DIV-124 {
+    box-sizing: border-box;
+    align-self: stretch;
+    background-color: rgb(246, 250, 247);
+    border-radius: 16px;
+    padding: 64px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 12px 16px -4px;
+    grid-area: span 1 / span 2 / span 1 / span 2;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  #output {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden; /* Ensures no content overflows */
+  }
+  
+  .output-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .A-4 {
+    color: rgb(240, 77, 169);
+    font-size: 16px;
+    text-decoration: none solid rgb(255, 255, 255);
+    background-color: #ffff;
+    box-sizing: border-box;
+    border: solid 1px #f04da9;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 24px;
+    padding: 9px 15px;
+    position: static;
+    align-self: center;
+  }
+  
