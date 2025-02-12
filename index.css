@@ -2,6 +2,8 @@ BODY {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+        font-family: Maisonneueweb, sans-serif;
+box-sizing: border-box;
   }
   
   .slider-container {
@@ -53,7 +55,11 @@ BODY {
   }
   
   .FORM-0 {
-    box-sizing: border-box;
+       position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
     align-items: stretch;
     align-self: auto;
     gap: 32px;
