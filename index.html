@@ -1,381 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-        <form name="email-form" data-name="Email Form" id="email-form" method="post" data-wf-page-id="65b82b2faf80d2af9926ae20" data-wf-element-id="95014683-8e30-dae2-92d2-7804441bef5c" aria-label="Email Form" dd-html="true" data-cb-wrapper="true" class="FORM-0">
-          <div class="DIV-0">
-            <div class="DIV-1">
-              <div class="DIV-2">
-                <h2 class="H2-0">1. Your checks</h2>
-                <div class="DIV-3">
-                  If you know how long it takes your background checks to complete, add
-                  that below, otherwise, we'll use an average
-                </div>
-              </div>
-              <div class="DIV-4">
-                <div class="DIV-5">
-                  How long (per candidate) does it take to complete background checks?
-                </div>
-                <select id="check-time-days" name="check-time" data-name="check-time" class="SELECT-0">
-                  <option value="">Select</option>
-                  <option value="2">1-3 days</option>
-                  <option value="7">4-10 days</option>
-                  <option value="16">11-20 days</option>
-                  <option value="25">20-30 days</option>
-                  <option value="35">30+</option>
-                </select>
-      
-              </div>
-              <div class="DIV-6">
-                <div class="DIV-7">Slide to add how many hires you make each month</div>
-                <div class="DIV-8">
-                  <div id="num-hires-slider" class="DIV-9">
-                    <input type="range" id="num-hires" name="num-hires" min="1" max="300" value="1" step="1" class="INPUT-0" />
-                    <p id="num-hires-output"></p>
-                  </div>
-      
-                </div>
-              </div>
-            </div>
-            <div class="DIV-10">
-              <h2 class="H2-1">2. Cost of admin time</h2>
-              <div class="DIV-11">
-                Time spent on background check admin wastes time that could be spent
-                doing other important tasks.
-              </div>
-              <div class="DIV-12">
-                <div class="DIV-13">
-                  <label for="salary" class="LABEL-0">
-                    Salary of team member doing background checks?
-                  </label>
-                  <input maxlength="256" name="Salary" id="salary" data-name="Salary" placeholder="Yearly salary (£)" type="number" class="INPUT-1" />
-                </div>
-                <div class="DIV-14">
-                  <label for="admin-time" class="LABEL-1">
-                    Time spent&nbsp;on admin per candidate?
-                  </label>
-                  <select id="admin-time" name="admin-time" data-name="admin time" class="SELECT-1">
-                    <option value="">Admin time per candidate</option>
-                    <option value="10">10 min</option>
-                    <option value="20">20 mins</option>
-                    <option value="30">30 mins</option>
-                    <option value="40">40 mins</option>
-                    <option value="60">1 hour</option>
-                    <option value="90">1.5 hours</option>
-                    <option value="120">2 hours</option>
-                    <option value="240">3+ hours</option>
-                  </select>
-      
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="DIV-15">
-            <h2 class="H2-2">3. Check types</h2>
-            <div class="DIV-16">Select the checks you currently run on candidates</div>
-            <div class="DIV-17">
-              <div role="list" class="DIV-18">
-                <!-- Social Media -->
-                <div role="listitem" class="DIV-19">
-                  <div class="DIV-20">
-                    <div class="DIV-21">
-                      <div class="DIV-22">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/6682d25e43b713d56ed7b948_Media%20check.png" alt="Logo" class="IMG-0" />
-                        <input type="checkbox" id="social-media" name="Social Media" data-zinc-time="" data-average-time="" class="INPUT-2" />
-                        <div class="DIV-23">
-                          <label for="social-media" class="LABEL-2">Social Media</label>
-                          <div id="social-media-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="social-media-number" name="Social Media-cost" placeholder="Current cost?" class="INPUT-3" />
-                            <i class="I-0">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Politically Exposed Persons -->
-                <div role="listitem" class="DIV-26">
-                  <div class="DIV-27">
-                    <div class="DIV-28">
-                      <div class="DIV-29">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/6645e007ab4279b91493c2fd_PEP.svg" alt="Logo" class="IMG-1" />
-                        <input type="checkbox" id="politically-exposed-persons" name="Politically Exposed Persons" data-zinc-time="" data-average-time="" class="INPUT-4" />
-                        <div class="DIV-30">
-                          <label for="politically-exposed-persons" class="LABEL-3">Politically Exposed Persons</label>
-                          <div id="politically-exposed-persons-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="politically-exposed-persons-number" name="Politically Exposed Persons-cost" placeholder="Current cost?" class="INPUT-5" />
-                            <i class="I-1">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Employment Verification -->
-                <div role="listitem" class="DIV-33">
-                  <div class="DIV-34">
-                    <div class="DIV-35">
-                      <div class="DIV-36">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a12695bec4076a5fa6b90_references.svg" alt="Logo" class="IMG-2" />
-                        <input type="checkbox" id="employment-verification" name="Employment verification" data-zinc-time="" data-average-time="" class="INPUT-6" />
-                        <div class="DIV-37">
-                          <label for="employment-verification" class="LABEL-4">Employment verification</label>
-                          <div id="employment-verification-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="employment-verification-number" name="Employment verification-cost" placeholder="Current cost?" class="INPUT-7" />
-                            <i class="I-2">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Self Certification -->
-                <div role="listitem" class="DIV-40">
-                  <div class="DIV-41">
-                    <div class="DIV-42">
-                      <div class="DIV-43">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a1278a4f10e428784e337_sanctions.svg" alt="Logo" class="IMG-3" />
-                        <input type="checkbox" id="self-certification" name="Self Certification" data-zinc-time="" data-average-time="" class="INPUT-8" />
-                        <div class="DIV-44">
-                          <label for="self-certification" class="LABEL-5">Self Certification</label>
-                          <div id="self-certification-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="self-certification-number" name="Self Certification-cost" placeholder="Current cost?" class="INPUT-9" />
-                            <i class="I-3">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Directorship -->
-                <div role="listitem" class="DIV-47">
-                  <div class="DIV-48">
-                    <div class="DIV-49">
-                      <div class="DIV-50">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/645e09a3085e10b2bbcf384d_Directorship%20check.svg" alt="Logo" class="IMG-4" />
-                        <input type="checkbox" id="directorship" name="Directorship" data-zinc-time="480" data-average-time="4320" class="INPUT-10" />
-                        <div class="DIV-51">
-                          <label for="directorship" class="LABEL-6">Directorship</label>
-                          <div id="directorship-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="directorship-number" name="Directorship-cost" placeholder="Current cost?" class="INPUT-11" />
-                            <i class="I-4">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Criminal -->
-                <div role="listitem" class="DIV-54">
-                  <div class="DIV-55">
-                    <div class="DIV-56">
-                      <div class="DIV-57">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/657342c20ea674606855817f_631a124daa968df267293708_criminal.svg" alt="Logo" class="IMG-5" />
-                        <input type="checkbox" id="criminal" name="Criminal" data-zinc-time="4302" data-average-time="7453" class="INPUT-12" />
-                        <div class="DIV-58">
-                          <label for="criminal" class="LABEL-7">Criminal</label>
-                          <div id="criminal-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="criminal-number" name="Criminal-cost" placeholder="Current cost?" class="INPUT-13" />
-                            <i class="I-5">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Right to work -->
-                <div role="listitem" class="DIV-61">
-                  <div class="DIV-62">
-                    <div class="DIV-63">
-                      <div class="DIV-64">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a1254fccf87b6e8312598_right%20to%20work.svg" alt="Logo" class="IMG-6" />
-                        <input type="checkbox" id="right-to-work" name="Right to work" data-zinc-time="1" data-average-time="1850" class="INPUT-14" />
-                        <div class="DIV-65">
-                          <label for="right-to-work" class="LABEL-8">Right to work</label>
-                          <div id="right-to-work-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="right-to-work-number" name="Right to work-cost" placeholder="Current cost?" class="INPUT-15" />
-                            <i class="I-6">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Identity -->
-                <div role="listitem" class="DIV-68">
-                  <div class="DIV-69">
-                    <div class="DIV-70">
-                      <div class="DIV-71">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a125d5c5687cb750528c9_id.svg" alt="Logo" class="IMG-7" />
-                        <input type="checkbox" id="identity" name="Identity" data-zinc-time="20" data-average-time="120" class="INPUT-16" />
-                        <div class="DIV-72">
-                          <label for="identity" class="LABEL-9">Identity</label>
-                          <div id="identity-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="identity-number" name="Identity-cost" placeholder="Current cost?" class="INPUT-17" />
-                            <i class="I-7">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Education -->
-                <div role="listitem" class="DIV-75">
-                  <div class="DIV-76">
-                    <div class="DIV-77">
-                      <div class="DIV-78">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a1264a1fda93a21f7eb63_education.svg" alt="Logo" class="IMG-8" />
-                        <input type="checkbox" id="education" name="Education" data-zinc-time="8640" data-average-time="18720" class="INPUT-18" />
-                        <div class="DIV-79">
-                          <label for="education" class="LABEL-10">Education</label>
-                          <div id="education-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="education-number" name="Education-cost" placeholder="Current cost?" class="INPUT-19" />
-                            <i class="I-8">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- References -->
-                <div role="listitem" class="DIV-82">
-                  <div class="DIV-83">
-                    <div class="DIV-84">
-                      <div class="DIV-85">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a12695bec4076a5fa6b90_references.svg" alt="Logo" class="IMG-9" />
-                        <input type="checkbox" id="references" name="References" data-zinc-time="840" data-average-time="4560" class="INPUT-20" />
-                        <div class="DIV-86">
-                          <label for="references" class="LABEL-11">References</label>
-                          <div id="references-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="references-number" name="References-cost" placeholder="Current cost?" class="INPUT-21" />
-                            <i class="I-9">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Finance -->
-                <div role="listitem" class="DIV-89">
-                  <div class="DIV-90">
-                    <div class="DIV-91">
-                      <div class="DIV-92">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a1282c38d5a2850b0ae9a_financial.svg" alt="Logo" class="IMG-10" />
-                        <input type="checkbox" id="finance" name="Finance" data-zinc-time="1" data-average-time="540" class="INPUT-22" />
-                        <div class="DIV-93">
-                          <label for="finance" class="LABEL-12">Finance</label>
-                          <div id="finance-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="finance-number" name="Finance-cost" placeholder="Current cost?" class="INPUT-23" />
-                            <i class="I-10">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Sanctions -->
-                <div role="listitem" class="DIV-96">
-                  <div class="DIV-97">
-                    <div class="DIV-98">
-                      <div class="DIV-99">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a1278a4f10e428784e337_sanctions.svg" alt="Logo" class="IMG-11" />
-                        <input type="checkbox" id="sanctions" name="Sanctions" data-zinc-time="1" data-average-time="450" class="INPUT-24" />
-                        <div class="DIV-100">
-                          <label for="sanctions" class="LABEL-13">Sanctions</label>
-                          <div id="sanctions-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="sanctions-number" name="Sanctions-cost" placeholder="Current cost?" class="INPUT-25" />
-                            <i class="I-11">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Address -->
-                <div role="listitem" class="DIV-103">
-                  <div class="DIV-104">
-                    <div class="DIV-105">
-                      <div class="DIV-106">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a12891c0c1c0fc4bbeb99_address.svg" alt="Logo" class="IMG-12" />
-                        <input type="checkbox" id="address" name="Address" data-zinc-time="38" data-average-time="4560" class="INPUT-26" />
-                        <div class="DIV-107">
-                          <label for="address" class="LABEL-14">Address</label>
-                          <div id="address-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="address-number" name="Address-cost" placeholder="Current cost?" class="INPUT-27" />
-                            <i class="I-12">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Adverse media -->
-                <div role="listitem" class="DIV-110">
-                  <div class="DIV-111">
-                    <div class="DIV-112">
-                      <div class="DIV-113">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/631a129642dd0a448a3b5c7d_media.svg" alt="Logo" class="IMG-13" />
-                        <input type="checkbox" id="adverse-media" name="Adverse media" data-zinc-time="1" data-average-time="345" class="INPUT-28" />
-                        <div class="DIV-114">
-                          <label for="adverse-media" class="LABEL-15">Adverse media</label>
-                          <div id="adverse-media-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="adverse-media-number" name="Adverse media-cost" placeholder="Current cost?" class="INPUT-29" />
-                            <i class="I-13">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <!-- Credit -->
-                <div role="listitem" class="DIV-117">
-                  <div class="DIV-118">
-                    <div class="DIV-119">
-                      <div class="DIV-120">
-                        <img src="https://cdn.prod.website-files.com/63160562425a30e9f498c69b/632085b554955ccbb4cb8a06_credit.svg" alt="Logo" class="IMG-14" />
-                        <input type="checkbox" id="credit" name="Credit" data-zinc-time="0" data-average-time="3450" class="INPUT-30" />
-                        <div class="DIV-121">
-                          <label for="credit" class="LABEL-16">Credit</label>
-                          <div id="credit-number-container" class="numhol" style="display: none;">
-                            <input type="number" id="credit-number" name="Credit-cost" placeholder="Current cost?" class="INPUT-31" />
-                            <i class="I-14">£</i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <a href="#" id="calculate-btn" class="A-0">Calculate</a>
-          </div>
-          <div id="output" class="DIV-124">
-            <div data-w-id="c3ecf447-9d82-c2a0-4de5-94a580833263" id="output-results" class="DIV-125"></div>
-          </div>
-        </form>
-        <script src="index.js"></script>
 
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Check Calculator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <form id="email-form" class="form-container">
+    <div class="form-column">
+      <div class="form-section">
+        <h2>1. Your checks</h2>
+        <p>If you know how long it takes your background checks to complete, add that below, otherwise, we'll use an average.</p>
+        <div class="input-group">
+          <label for="check-time-days">How long (per candidate) does it take to complete background checks?</label>
+          <select id="check-time-days" name="check-time">
+            <option value="">Select</option>
+            <option value="2">1-3 days</option>
+            <option value="7">4-10 days</option>
+            <option value="16">11-20 days</option>
+            <option value="25">20-30 days</option>
+            <option value="35">30+</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label>Slide to add how many hires you make each month</label>
+          <input type="range" id="num-hires" name="num-hires" min="1" max="300" value="1" step="1" class="slider">
+          <p id="num-hires-output"></p>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2>2. Cost of admin time</h2>
+        <p>Time spent on background check admin wastes time that could be spent doing other important tasks.</p>
+        <div class="input-group">
+          <label for="salary">Salary of team member doing background checks?</label>
+          <input type="number" id="salary" name="Salary" placeholder="Yearly salary (£)">
+        </div>
+        <div class="input-group">
+          <label for="admin-time">Time spent on admin per candidate?</label>
+          <select id="admin-time" name="admin-time">
+            <option value="">Admin time per candidate</option>
+            <option value="10">10 min</option>
+            <option value="20">20 mins</option>
+            <option value="30">30 mins</option>
+            <option value="40">40 mins</option>
+            <option value="60">1 hour</option>
+            <option value="90">1.5 hours</option>
+            <option value="120">2 hours</option>
+            <option value="240">3+ hours</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-column">
+      <div class="form-section">
+        <h2>3. Check types</h2>
+        <p>Select the checks you currently run on candidates</p>
+        <div class="check-list-container">
+          <div class="check-list" id="check-list">
+            <!-- Checkboxes will be dynamically inserted here -->
+          </div>
+        </div>
+        <a href="#" id="calculate-btn" class="btn">Calculate</a>
+      </div>
+    </div>
+
+    <div id="output" class="output-section">
+      <div id="output-results"></div>
+    </div>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+
 </html>
